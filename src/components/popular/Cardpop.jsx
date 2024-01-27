@@ -1,0 +1,26 @@
+import React from "react";
+
+const Cardpop = (props) => {
+  return (
+      <div className="card">
+        <img src={props.image} alt="Avatar" style={{width: "100%"}} />
+        <div className="container">
+          <p>{props.name}</p>
+          <br></br>
+          <p className="cardP">
+          <span className="span1">
+
+          ${props.new} 
+          </span>
+          <span className="span2">
+          ${props.old}
+          </span>
+        </p>
+
+        </div>
+      </div>
+
+  );
+};
+
+export default Cardpop;

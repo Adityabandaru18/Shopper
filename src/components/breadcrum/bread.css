@@ -1,0 +1,13 @@
+.breadmain{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.bread1{
+    height: 100px;
+    padding: 30px;
+
+}

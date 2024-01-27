@@ -1,0 +1,50 @@
+.news {
+  width: 80%;
+  height: 500px;
+  margin: 0px auto;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 60px;
+}
+
+.email-input {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  padding-right: 280px;
+}
+
+.subscribe-button {
+    position: relative;
+    right: 50px;
+  padding: 15px 25px;
+  background-color:  black;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.subscribe-button:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+.get1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.get2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}

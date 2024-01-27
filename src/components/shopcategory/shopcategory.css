@@ -1,0 +1,123 @@
+.Show_results {
+  width: 70%;
+  max-height: 100px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 50px;
+}
+.show1 span {
+  font-weight: bolder;
+}
+
+.Show_results button {
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 20px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0.2px solid black;
+  cursor: pointer;
+}
+.Show_results button img {
+  margin-left: 5px;
+}
+.shopcat {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.popitems {
+  display: flex;
+  height: 2000px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s 0.3s; /* Use transform for the transition */
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+}
+
+.span1 {
+  font-size: 20px;
+  font-weight: bolder;
+
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+}
+.span2 {
+  margin-left: 20px;
+  text-decoration: line-through;
+  position: relative;
+  bottom: 18px;
+  right: 18px;
+  color: rgb(85, 83, 83);
+}
+
+.button-7 {
+  align-items: center;
+  background-clip: padding-box;
+  max-width: 200px;
+  max-height: 10px;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  margin-left: 700px;
+  margin-top: 30px;
+}
+.button-7:hover,
+.button-7:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-7:hover {
+  transform: translateY(-1px);
+}
+
+.button-7:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.last_foot {
+  margin-left: 300px;
+}
+.image {
+  display: block;
+  margin-top: 30px;
+  margin-left: 60px;
+}

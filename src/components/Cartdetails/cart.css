@@ -1,0 +1,186 @@
+.maincart{
+    width: 80%;
+    margin-top: 40px;
+    margin: 0px auto;
+}
+.CART{
+    display: flex;
+    flex-direction: column;
+}
+.mainU{
+    display: flex;
+    flex-direction: row;
+}
+.ul1{
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+}
+.ul1 li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin: 60px;
+}
+.ul2{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-bottom: 13px;
+}
+.ul2 li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin: 60px;
+}
+.carthr{
+    position: relative;
+    bottom: 40px;
+}
+.final_cart{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.FC1{
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    margin-left: 60px;
+}
+.FC1 img{
+    max-width: 60px;
+    max-height: 60px;
+ 
+}
+.FC1 p{
+    font-size: 15px;
+    margin-left: 90px;
+    position: relative;
+    top: 10px;
+}
+.FC2{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+ 
+}
+
+.FC2 p{
+    list-style: none;
+    font-size: 15px;
+    color: black;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+.price1{
+    position: relative;
+    right: 20px;
+    top: 10px;
+    
+}
+.price2{
+    position: relative;
+    left: 35px;
+    top: 10px;
+    
+    
+}
+.fprice{
+    position: relative;
+    left: 85px;
+    top: 10px;
+    
+}
+.price_button{
+    position: relative;
+    left: 110px;
+    top: 10px;
+
+}
+
+.Bill{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+   
+}
+.bil1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+.o1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.o2{
+    display: flex;
+    font-weight: bolder;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.promo{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 150px;
+
+}
+
+.promo-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-right: 200px;
+    background-color: rgb(208, 208, 208);
+    
+  }
+  .subscribe-container1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .subscribe-button1 {
+      position: relative;
+      right: 50px;
+    padding: 15px 25px;
+    background-color:  black;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .subscribe-button1:hover {
+    background-color: black;
+    border: 1px solid black;
+  }
+
+  .promo p{
+    color: grey;
+    font-weight: 500;
+  }
+
+  .emptycart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+  }

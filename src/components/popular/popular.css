@@ -1,0 +1,62 @@
+.popular hr{
+    max-width: 240px;
+    height: 3px; 
+    background-color: black;
+    margin: 0px auto;
+    border: none;
+    margin-top: 10px;
+}
+.popular{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.w p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.w1{
+    position: relative;
+    bottom: 50px;
+}
+.popitems{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s 0.3s; /* Use transform for the transition */
+    width: 300px;
+    height: 200px;
+
+  }
+  
+  .card:hover {
+    transform: scale(1.1, 1.1); /* Adjust the scaling values as needed */
+  }
+  
+  
+  /* Add some padding inside the card container */
+
+
+  .span1{
+    font-size: 20px;
+    font-weight: bolder;
+ 
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
+.span2{
+    margin-left: 20px;
+    text-decoration: line-through;
+    position: relative;
+    bottom: 18px;
+    right: 18px;
+    color: rgb(85, 83, 83);
+  }
+  

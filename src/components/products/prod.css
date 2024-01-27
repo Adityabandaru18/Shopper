@@ -1,0 +1,169 @@
+.Prod_main {
+  width: 80%;
+  height: 800px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  display: flex;
+}
+.prod_bread {
+  width: 100%;
+  height: 120px;
+}
+.prod_image {
+  display: flex;
+  flex-direction: row;
+  max-height: 500px;
+}
+.proimage1 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+.proimage1 img {
+  max-width: 94px;
+  margin: 10px;
+  max-height: 87px;
+}
+.proimage2 img{
+    position: relative;
+    right: 45px;
+
+}
+.prodescription p {
+  display: block;
+}
+.prodescription {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-left: 30px;
+  position: relative;
+  right: 45px;
+}
+.Prodhead {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.OLDP {
+  text-decoration: line-through;
+  font-size: 16px;
+  color: grey;
+}
+.NEWP {
+  color: orange;
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.sodhi {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.prodsize {
+  font-size: 20px;
+  color: grey;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.sizes_prod {
+  display: flex;
+  flex-direction: row;
+}
+.sizes_prod p {
+  margin-top: 5px;
+  font-size: 15px;
+  margin-right: 18px;
+  padding: 8px;
+  background: rgb(232, 226, 226);
+  color: black;
+  cursor: pointer;
+}
+
+.button-9{
+  background-color: #fa6400;
+  border-radius: 0.25rem;
+ max-width: 170px;
+ max-height: 50px;
+  color: #fff;
+  cursor: pointer;
+
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  left: 1px;
+  border: none;
+  top: 5px;
+
+}
+
+.button-9:hover,
+.sizes_prod :focus {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    background-color: #fb8332;
+}
+
+.button-9:hover {
+  transform: translateY(-1px);
+}
+
+.button-9:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    transform: translateY(0);
+}
+.sizes_prod :hover {
+    transform: translateY(-1px);
+    background-color: #fb8332;
+}
+
+.sizes_prod :active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+.tag1{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    position: relative;
+    right: 5px;
+    
+}
+.but7{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.starI{
+
+  margin-top: 10px;
+}
+.starI img{
+  margin: 3px;
+}
+.starI p span{
+  position: relative;
+  bottom: 5.5px;
+}
+
+.ratings_image{
+  max-width: 1200px;
+  max-height: 900px;
+  margin: 0px auto;
+  display: block;
+  position: relative;
+  bottom: 50px;
+}
+
