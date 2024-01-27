@@ -20,8 +20,8 @@ This Ecommerce website featues an extensive collection of clothing for men, wome
 2. After that, follow these steps:
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-website.git
-   cd ecommerce-website
+   https://github.com/Adityabandaru18/Shopper.git
+   cd Shopper
    npm install
    npm start
    ```
